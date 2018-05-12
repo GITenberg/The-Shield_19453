@@ -1,0 +1,65 @@
+_repo: The-Shield_19453
+_version: 0.1.0
+contributor:
+  translator:
+    agent_name: Yarmolinsky, Avrahm
+    aliases:
+    - Yarmolinsky, Abraham
+    - Yarmolinsky, A.
+    - Ярмолінскіў, Абрам Цалевіч
+    birthdate: 1890
+    deathdate: 1975
+    gutenberg_agent_id: '8767'
+    url: http://www.gutenberg.org/2009/agents/8767
+    wikipedia: http://en.wikipedia.org/wiki/Avrahm_Yarmolinsky
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  editors:
+  - agent_name: Sologub, Fyodor
+    aliases:
+    - Teternikov, Fyodor Kuzmich
+    - Сологуб, Федор
+    - Тетерников, Федор Кузьмич
+    - Sologub, Feodor
+    birthdate: 1863
+    deathdate: 1927
+    gutenberg_agent_id: '2481'
+    url: http://www.gutenberg.org/2009/agents/2481
+    wikipedia: http://en.wikipedia.org/wiki/Fyodor_Sologub
+  - agent_name: Andreyev, Leonid
+    aliases:
+    - Андреев, Леонид Николаевич
+    - Andreyev, Leonid Nikolayevich
+    - Andreev, Leonid Nikolaevich
+    birthdate: 1871
+    deathdate: 1919
+    gutenberg_agent_id: '1871'
+    url: http://www.gutenberg.org/2009/agents/1871
+    wikipedia: http://en.wikipedia.org/wiki/Leonid_Andreyev
+  - agent_name: Gorky, Maksim
+    aliases:
+    - Peshkov, Alexey Maximiovich
+    - Gorky, Maxim
+    - Горький, Максим
+    birthdate: 1868
+    deathdate: 1936
+    gutenberg_agent_id: '348'
+    url: http://www.gutenberg.org/2009/agents/348
+    wikipedia: http://en.wikipedia.org/wiki/Maxim_Gorky
+description: ''
+gutenberg_issued: '2006-10-03'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '19453'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Jews -- Russia -- Politics and government'
+- !lcsh 'Russia -- Politics and government -- 1894-1917'
+- !lcc 'DS'
+title: The Shield
+url: http://www.gutenberg.org/ebooks/19453
