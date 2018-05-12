@@ -49,6 +49,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/348
     wikipedia: http://en.wikipedia.org/wiki/Maxim_Gorky
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/19453#The-Shield
 gutenberg_issued: '2006-10-03'
 gutenberg_type: Text
 identifiers:
