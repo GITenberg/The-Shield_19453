@@ -1,284 +1,279 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/19453">
-    <dcterms:title>The Shield</dcterms:title>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T08:40:48.220598</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:50:12.407181</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115132</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3197f55db32b4a1b8b70d1b6ec752b91">
+          <rdf:Description rdf:nodeID="N25808a38538a4282a2bad26590fcdd2e">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115775</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</pgterms:downloads>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N34b985e50e324296b19c5ad88a2905a3">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/1871">
-        <pgterms:alias>Андреев, Леонид Николаевич</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Leonid_Andreyev"/>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1871</pgterms:birthdate>
-        <pgterms:name>Andreyev, Leonid</pgterms:name>
-        <pgterms:alias>Andreev, Leonid Nikolaevich</pgterms:alias>
-        <pgterms:alias>Andreyev, Leonid Nikolayevich</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1919</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:edt>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N807590dff2b94a679da71bd19c7aa51c">
-        <rdf:value>DS</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N96c44e8c88e44f34bdf7414bfa952a31">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          <rdf:Description rdf:nodeID="N4d8e8721292c4f30a9344d64427308f8">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86633</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:39:17</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6782a821575a4ab29c2a988b2c8559cf">
+          <rdf:Description rdf:nodeID="Ne826944f258942148f35047a7edbb478">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453-8.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na20ee367c6aa43f9b7bd4de62c2277f6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:39:17</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb27f27f0d9b84ea48df1937086d17023">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86649</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2c761a2ddf8943509494d01ee28182a2">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Jews -- Russia -- Politics and government</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N58325bf2e36a4f0696bec335bfb8fe7d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">453144</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:50:15.094140</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N148fb070e73944f2b1746732a7c61715">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/2481">
+        <pgterms:alias>Teternikov, Fyodor Kuzmich</pgterms:alias>
+        <pgterms:alias>Тетерников, Федор Кузьмич</pgterms:alias>
+        <pgterms:alias>Sologub, Feodor</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1927</pgterms:deathdate>
+        <pgterms:name>Sologub, Fyodor</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Fyodor_Sologub"/>
+        <pgterms:alias>Сологуб, Федор</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Ndf55be2e972a406d84958c2c3a09877e">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/1871">
+        <pgterms:alias>Andreyev, Leonid Nikolayevich</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1919</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Leonid_Andreyev"/>
+        <pgterms:name>Andreyev, Leonid</pgterms:name>
+        <pgterms:alias>Andreev, Leonid Nikolaevich</pgterms:alias>
+        <pgterms:alias>Андреев, Леонид Николаевич</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1871</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/348">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1936</pgterms:deathdate>
+        <pgterms:alias>Gorky, Maxim</pgterms:alias>
+        <pgterms:alias>Горький, Максим</pgterms:alias>
+        <pgterms:name>Gorky, Maksim</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</pgterms:birthdate>
+        <pgterms:alias>Gorky, Maxime</pgterms:alias>
+        <pgterms:alias>Peshkov, Alexey Maximiovich</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Maxim_Gorky"/>
+      </pgterms:agent>
+    </marcrel:edt>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/8767">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Avrahm_Yarmolinsky"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1975</pgterms:deathdate>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</pgterms:birthdate>
+        <pgterms:name>Yarmolinsky, Avrahm</pgterms:name>
+        <pgterms:alias>Yarmolinsky, A.</pgterms:alias>
+        <pgterms:alias>Yarmolinsky, Abraham</pgterms:alias>
+        <pgterms:alias>Ярмолінскіў, Абрам Цалевіч</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231143</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:39:17</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naabf67f09b624618bccf7094586e887e">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-10-03</dcterms:issued>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T23:26:21.711597</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132964</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453-h/19453-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266676</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N30146e8bf81447618bb2f9e55caa5537">
+          <rdf:Description rdf:nodeID="Nee7d9164d7eb4867b108bb29a29368c7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:46:42</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N6886de7e3fb74173a03d23024468b8b6">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.txt.utf-8">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N25156b94363d42df957aae0e459ba952">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231110</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T08:40:46.616201</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <marcrel:trl>
-      <pgterms:agent rdf:about="2009/agents/8767">
-        <pgterms:name>Yarmolinsky, Avrahm</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1975</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Avrahm_Yarmolinsky"/>
-      </pgterms:agent>
-    </marcrel:trl>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/348">
-        <pgterms:alias>Gorky, Maxim</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Maxim_Gorky"/>
-        <pgterms:alias>Peshkov, Alexey Maximiovich</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1868</pgterms:birthdate>
-        <pgterms:name>Gorky, Maksim</pgterms:name>
-        <pgterms:alias>Горький, Максим</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1936</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:edt>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5767dbffa884450a9084012bb361aecf">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          <rdf:Description rdf:nodeID="N0504c385bda146e0832d906b9bafc442">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:39:17</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231112</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231143</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:50:11.855186</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">189600</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T08:40:51.121706</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.rdf">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N07a7170caf16406d8750e83e9f8d2e2e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N7a672110ee604401acfb0cf6be15c180">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16231</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:14:39.156721</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.epub.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T08:40:48.921905</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124020</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:50:12.825171</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106782</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5c81d137a40e4709aa4001f3af1a8bd0">
+          <rdf:Description rdf:nodeID="N5242c25477d0407c815264483d783dbd">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N4dcfca23ccab4c01a44895e4d7e1172b">
+      <rdf:Description rdf:nodeID="N41c5d36e6c6a450e860021d052ca55b0">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Russia -- Politics and government -- 1894-1917</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:title>The Shield</dcterms:title>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ne48d612c437941638a7145093e841a99">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Jews -- Russia -- Politics and government</rdf:value>
+      <rdf:Description rdf:nodeID="N18438943008c475dae98ecde307b0a01">
+        <rdf:value>DS</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453-8.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453-h.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N26edc7e4952f420184a6ae07062a0f0e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:39:17</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9aab3bad922440e4b5e97d582a97240e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86649</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453-h/19453-h.htm">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:46:42</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266676</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Naa814233028d4913a9ca23eca6482e04">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Na2686911acc944afb52e0d6d362881cf">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.kindle.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T08:40:49.891934</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183260</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1966e46839a240e19d1b8e5d81a949cf">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncd997adcb53f418980b4019a3709551e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103820</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:46:57</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453-8.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:39:17</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231133</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne27f283d85324d83bbe84c803f728d27">
+          <rdf:Description rdf:nodeID="N9831fb2cb355449d95508385cff4d3e7">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231133</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:39:17</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/2481">
-        <pgterms:name>Sologub, Fyodor</pgterms:name>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Fyodor_Sologub"/>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</pgterms:birthdate>
-        <pgterms:alias>Тетерников, Федор Кузьмич</pgterms:alias>
-        <pgterms:alias>Teternikov, Fyodor Kuzmich</pgterms:alias>
-        <pgterms:alias>Сологуб, Федор</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1927</pgterms:deathdate>
-      </pgterms:agent>
-    </marcrel:edt>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</pgterms:downloads>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/19453/19453-h.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103820</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-10-03T15:46:57</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc28cefa7ba694121a19367716af05eeb">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.kindle.images">
         <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N56a14583a50646b89749e392aa1394b0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="N94001102b66b4bc3bd68ca690d9e6a06">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/19453.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148819</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T23:26:19.056252</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/19453"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N20be38c9918841fc8be7766fb6f9739a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">467846</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-10T01:50:13.991149</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Maxim_Gorky">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Fyodor_Sologub">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Fyodor_Sologub">
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Maxim_Gorky">
     <dcterms:description>Wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Leonid_Andreyev">
